@@ -1,0 +1,82 @@
+body
+{
+	background: #201E1F;
+	margin: none;
+	padding: none;
+	font-size: 1em;
+	font-family: "Droid Serif", Garamond, Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3
+{
+	font-family: 'LeagueGothicRegular', Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.5em; }
+
+dl
+{
+	margin-left: 10px;
+}
+
+dt
+{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+dd
+{
+	list-style-type: circle;
+}
+
+#signature
+{
+	text-align: right;
+}
+
+#header
+{
+	margin: 10px auto;
+	border: none;
+	display: block;
+}
+
+#content
+{
+	font-size: 1.25em;
+	width: 800px;
+	padding: 10px;
+	margin: 10px auto 0 auto;
+	/* Border radius, man. */
+	/*border: 1px solid #949092;*/
+	-webkit-border-radius: 4px 4px 0 0;
+	   -moz-border-radius: 4px 4px 0 0;
+	        border-radius: 4px 4px 0 0;
+	
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	
+
+	/* Background gradient, man. */
+	background-color: #F3F1F3; 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F3F1F3), to(#C2BDBF));
+	background-image: -webkit-linear-gradient(top, #F3F1F3, #C2BDBF); 
+	background-image:    -moz-linear-gradient(top, #F3F1F3, #C2BDBF);
+	background-image:     -ms-linear-gradient(top, #F3F1F3, #C2BDBF);
+	background-image:      -o-linear-gradient(top, #F3F1F3, #C2BDBF);
+}
+
+#footer
+{
+	width: 800px;
+	color: #C2BDBF;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 0.75em;
+	font-style: italic;
+	text-align: center;
+}
